@@ -27,10 +27,10 @@ authors = [
     {name = "Andy Patterson", email = "andnpatterson@gmail.com"},
 ]
 dependencies = [
-    "polars~=1.6",
-    "numba~=0.57",
-    "numpy~=2.0",
-    "scipy~=1.9",
+    "polars~=1.39",
+    "numba~=0.65",
+    "numpy~=2.4",
+    "scipy~=1.17",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -50,14 +50,14 @@ Changelog = "https://github.com/andnp/rlevaluation/blob/main/CHANGELOG.md"
 
 [dependency-groups]
 dev = [
-    "commitizen>=4.2.1",
-    "matplotlib>=3.10.0",
-    "pip>=25.0.1",
-    "pre-commit>=4.1.0",
-    "pyright>=1.1.394",
-    "pytest>=8.3.4",
-    "pytest-cov>=6.0.0",
-    "ruff>=0.9.6",
+    "commitizen>=4.13.10",
+    "matplotlib>=3.10.8",
+    "pip>=26.0.1",
+    "pre-commit>=4.5.1",
+    "pyright>=1.1.408",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.10",
 ]
 
 [build-system]
